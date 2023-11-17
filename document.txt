@@ -1,0 +1,20 @@
+-Một số kĩ thuật xây dựng layout
++position
++ float
++table
++flexbox
++grid
+-Mô hình flexbox
++khi sử dụng thuộc tính display thì trục main axis mặc định nằm ngang và thuộc tính này sẽ được định nghĩa bên trong flex- container(khối cha)
+display: flex định nghĩa sử dụng flex làm item cùng hàng
++justify-content: sử dụng ở flex-container và luôn luôn đi theo trục main axis
+  - flex start căn các item sang bên trái(mainstart)
+  - flex-end : phải(main end)
+ -center: item ra giữa
+space-around: giàn các item ra xa nhau khoảng cách giữa các item bằng nhau nhưng 2 item ngoài với lề bé hơn
+space-between: giàn tiem ra xa nhau 2 tiem ngoài sts lề
+space=evenly: giàn cá item ra xa nhau và khoảng cách đều nhau
++align-item: Dđược sử dụng với flex-container và đi theo trục dọc cross-axis(display:flex)
++gap: dùng để dãn đều các item theo 1 đơn vị nào đó(px,...)
++flex-wrap cho phép phần tử xuống dòng kh chiều dài k đủ
++flex dùng để kéo dài diện tích các item dựa vào chỉ số của nó
